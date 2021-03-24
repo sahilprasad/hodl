@@ -18,6 +18,8 @@
   "permissions": [
     "activeTab",
     "storage",
+    "http://*/*",
+    "https://*/*",
     "*://*.robinhood.com/*"
   ],
 
