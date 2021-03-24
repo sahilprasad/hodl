@@ -1,0 +1,14 @@
+@import "../styles/fonts";
+@import "../styles/reset";
+@import "../styles/variables";
+
+body {
+  color: $black;
+  background-color: $greyWhite;
+}
+
+
+.Popup {
+  min-width: 350px;
+  padding: 30px 20px;
+}
