@@ -11,9 +11,11 @@ function sleep(ms: number): Promise<void> {
 const main = (): void => {
   const {location} = window;
 
-  switch (location.pathname) {
+  switch (location.hostname) {
     case 'robinhood.com':
-      robinhodl();
+      if (location.pathname.startsWith("/stocks/GME")) {
+        robinhodl();
+      }
       break;
     default:
       break;
