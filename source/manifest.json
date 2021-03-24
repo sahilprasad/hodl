@@ -16,7 +16,6 @@
   "short_name": "DIAMOND HANDS",
 
   "permissions": [
-    "storage",
     "http://*/*",
     "https://*/*",
     "*://*.robinhood.com/*"
